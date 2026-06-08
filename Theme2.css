@@ -1698,3 +1698,8 @@ button.button__67645 .lottieIcon__5eb9b svg path {
 .container__37e49 {
     border-radius: 24px !important;
 }
+
+.scrollableContainer__74017 {
+    border: none !important;
+    box-shadow: none !important;
+}
