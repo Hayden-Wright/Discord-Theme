@@ -1,9 +1,8 @@
 :root {
-  --darkplus-bg: #212121;
-  --darkplus-bg2: #302f2f;
-  --darkplus-sec: #bb86fc;
-  --darkplus-links: #cdaef3;
-  --darkplus-home-icon: none; /* убираем имгур навсегда */
+  --darkplus-bg: #161618;
+  --darkplus-bg2: #121213;
+  --darkplus-sec: #8e9096;
+  --darkplus-links: #c2c5cc;
   --watermark-filter-invert: 0%;
   --watermark-filter-sepia: 50%;
   --watermark-filter-saturate: 3000%;
