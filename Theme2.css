@@ -3,7 +3,6 @@
   --darkplus-bg2: #302f2f;
   --darkplus-sec: #bb86fc;
   --darkplus-links: #cdaef3;
-  --darkplus-home-icon: url(https://i.imgur.com/RvlNQ7k.png);
   --watermark-filter-invert: 0%;
   --watermark-filter-sepia: 50%;
   --watermark-filter-saturate: 3000%;
@@ -339,16 +338,6 @@
 .childWrapper_a6ce15 path {
   fill: transparent;
 }
-.wrapper__6e9f8[data-list-item-id="guildsnav___home"] .childWrapper__6e9f8 {
-  background: var(--darkplus-home-icon) center/cover no-repeat !important;
-  min-width: 50px;
-  min-height: 50px;
-  background-color: red;
-}
-
-.wrapper__6e9f8[data-list-item-id="guildsnav___home"] .childWrapper__6e9f8 svg {
-  display: none;
-}
 
 .anchor-1MIwyf.anchorUnderlineOnHover-2qPutX {
   color: var(--darkplus-links);
@@ -453,7 +442,9 @@ article.embedWrapper_b7e1cb.embedFlexGrow_b7e1cb.embedFull__623de.embed__623de.m
 
 .membersGroup_c8ffbb {
 	height: 0;
-	transition-duration: 500ms;
+	transition: width 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+            min-width 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+            box-shadow 0.7s cubic-bezier(0.22, 1, 0.36, 1);
 	transition-property: height;
 }
 
@@ -1660,7 +1651,9 @@ button.button__67645 .lottieIcon__5eb9b svg path {
 
 .panels__5e434 {
   background-color: var(--darkplus-bg) !important;
-  border: 2px solid var(--darkplus-sec) !important;
+  border: none !important;
+  border-radius: 16px !important;
+  overflow: hidden;
 }
 
 .winButtons_c38106 {
@@ -1734,4 +1727,55 @@ button.button__67645 .lottieIcon__5eb9b svg path {
 ::selection {
   background-color: var(--darkplus-bg);
   color: var(--darkplus-links);
+}
+
+/* REMOVE TOP TEXT / HEADER TITLE */
+.title__9293f,
+.header_f37cb1,
+.headerContent_f37cb1,
+.title_c38106 {
+  display: none !important;
+}
+
+/* SERVER ICON ROUNDING */
+.wrapper__6e9f8 .childWrapper__6e9f8 {
+  border-radius: 14px !important;
+}
+
+/* CHAT INPUT ROUNDING */
+.scrollableContainer__74017 {
+  border-radius: 16px !important;
+}
+
+/* ALIGN CHAT + USER PANEL */
+.content_f75fb0 {
+  display: flex;
+  flex-direction: column;
+}
+
+.panels__5e434 {
+  margin-top: 0 !important;
+}
+
+.membersWrap_c8ffbb {
+  will-change: width;
+}
+
+/* SCROLLBAR STYLE */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--darkplus-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--darkplus-sec);
+  border-radius: 10px;
+  border: 2px solid var(--darkplus-bg);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--darkplus-links);
 }
