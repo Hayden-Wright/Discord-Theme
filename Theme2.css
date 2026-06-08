@@ -358,16 +358,15 @@
 .childWrapper_a6ce15 path {
   fill: transparent;
 }
-/* === УДАЛЯЕМ НАДПИСЬ СЛЕВА НАД ЛОГОМ + МЕНЯЕМ ЛОГО НА СТАНДАРТНОЕ === */
+/* === ОКОНЧАТЕЛЬНО УБИВАЕМ ЛОГО + НАДПИСЬ (на всякий случай) === */
 .wrapper__6e9f8[data-list-item-id="guildsnav___home"] .childWrapper__6e9f8 {
-  background: var(--darkplus-home-icon) center/cover no-repeat !important;
+  background: url("https://discordapp.com/assets/6a2c5f8e2b0c5d0f8e2b0c5d0f8e2b0c5d0f8e2b0c5d0f8e2b0c5d0f8e2b0c5d0f.svg") center/cover no-repeat !important;
   min-width: 50px;
   min-height: 50px;
-  background-color: red;
 }
 
 .wrapper__6e9f8[data-list-item-id="guildsnav___home"] .childWrapper__6e9f8 svg {
-  display: none;
+  display: none !important;
 }
 
 .anchor-1MIwyf.anchorUnderlineOnHover-2qPutX {
