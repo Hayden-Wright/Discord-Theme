@@ -1699,17 +1699,8 @@ button.button__67645 .lottieIcon__5eb9b svg path {
     border-radius: 24px !important;
 }
 
-.memberInner__5d473,
-.layout__91a9d {
-    border-radius: 16px !important;
-}
-
-.layout__91a9d:hover {
-    background: rgba(255,255,255,0.03) !important;
-}
-
 .layout__91a9d[aria-selected="true"],
 .selected__91a9d .layout__91a9d,
 .member_c8ffbb.selected__91a9d .layout__91a9d {
-    background: rgba(187,134,252,0.12) !important;
+    background: transparent !important;
 }
