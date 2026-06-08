@@ -339,18 +339,6 @@
 .childWrapper_a6ce15 path {
   fill: transparent;
 }
-/* === ОКОНЧАТЕЛЬНЫЙ УБИВАТЕЛЬ НАДПИСИ СВЕРХУ + ЛОГО === */
-.wrapper__6e9f8[data-list-item-id="guildsnav___home"] .childWrapper__6e9f8::before,
-.wrapper[data-list-item-id="guildsnav___home"] .childWrapper::before {
-  content: "" !important;
-  background-image: none !important;
-}
-
-.wrapper__6e9f8[data-list-item-id="guildsnav___home"] .childWrapper__6e9f8 svg,
-.wrapper[data-list-item-id="guildsnav___home"] .childWrapper svg {
-  display: none !important;
-}
-
 .anchor-1MIwyf.anchorUnderlineOnHover-2qPutX {
   color: var(--darkplus-links);
 }
