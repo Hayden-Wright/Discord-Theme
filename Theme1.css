@@ -1,40 +1,14 @@
-:root,
-.theme-dark {
-  /* Фоны */
-  --background-primary: #161618;
-  --background-secondary: #121213;
-  --background-secondary-alt: #121213;
-  --background-tertiary: #0e0e10;
-  --background-floating: #121213;
-  --background-mobile-primary: #161618;
-  --background-mobile-secondary: #121213;
-  --channeltextarea-background: #121213;
-
-  /* Текст */
-  --text-normal: #8e9096;
-  --text-muted: #8e9096;
-  --text-link: #c2c5cc;
-  --header-primary: #c2c5cc;
-  --header-secondary: #8e9096;
-  --interactive-normal: #8e9096;
-  --interactive-hover: #c2c5cc;
-  --interactive-active: #c2c5cc;
-  --interactive-muted: #8e9096;
-
-  /* Акцент (бренд) */
-  --brand-experiment: #8e9096;
-  --brand-experiment-400: #8e9096;
-  --brand-experiment-500: #8e9096;
-  --brand-experiment-560: #c2c5cc;
-  --brand-500: #8e9096;
-  --brand-530: #c2c5cc;
-  --brand-560: #c2c5cc;
-
-  /* Разделители */
-  --background-modifier-hover: rgba(255,255,255,0.03);
-  --background-modifier-selected: rgba(255,255,255,0.07);
-  --background-modifier-accent: #3d3d3f;
-  --channelicon-background: #8e9096;
+:root {
+  --darkplus-bg: #161618;
+  --darkplus-bg2: #121213;
+  --darkplus-sec: #8e9096;
+  --darkplus-links: #c2c5cc;
+  --watermark-filter-invert: 0%;
+  --watermark-filter-sepia: 50%;
+  --watermark-filter-saturate: 3000%;
+  --watermark-filter-hue-rotate: 210deg;
+  --watermark-filter-brightness: 70%;
+  --watermark-filter-contrast: 200%;
 }
 
 .bg__960e4,
