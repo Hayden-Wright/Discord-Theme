@@ -407,8 +407,6 @@ article.embedWrapper_b7e1cb.embedFlexGrow_b7e1cb.embedFull__623de.embed__623de.m
 .avatar_c19a55:hover.clickable_c19a55:hover {
   filter: drop-shadow(0 0 8px);
   color: var(--darkplus-sec);
-  transform: scale(1.2) rotate(360deg); 
-  transition: width 0.5s ease, height 0.5s ease, transform 0.5s ease;
 }
 
 .title_f75fb0.container__9293f.themed__9293f, .theme-dark .children__9293f:after {
@@ -1601,7 +1599,6 @@ button.button__67645 .lottieIcon__5eb9b svg path {
 
 .panels__5e434 {
   background-color: var(--darkplus-bg) !important;
-  border: 2px solid var(--darkplus-sec) !important;
 }
 
 .winButtons_c38106 {
