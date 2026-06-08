@@ -58,6 +58,7 @@
 .form_f75fb0 .channelTextArea_f75fb0 .scrollableContainer__74017 {
   max-height: 45vh;
   background-color: var(--darkplus-bg2);
+  border-radius: 28px;
 }
 
 .form_f75fb0 .channelTextArea_f75fb0 {
@@ -406,7 +407,8 @@ article.embedWrapper_b7e1cb.embedFlexGrow_b7e1cb.embedFull__623de.embed__623de.m
 
 .theme-dark .container__37e49 {
     background-color: var(--darkplus-bg2);
-    border-radius: inherit;
+    border-radius: 24px;
+    margin: 8px;
 }
 
 .chatContent_f75fb0 {
@@ -1762,8 +1764,25 @@ button.button__67645 .lottieIcon__5eb9b svg path {
     transition: all 0.3s ease !important;
 }
 
-/* Стеклянная верхняя панель */
-.title_f75fb0 {
-    backdrop-filter: blur(12px);
-    background: rgba(33,33,33,0.7) !important;
+.member_c8ffbb {
+    border-radius: 16px;
+}
+
+.member_c8ffbb:hover {
+    background: rgba(255,255,255,0.03) !important;
+}
+
+.member_c8ffbb.selected__91a9d,
+.member_c8ffbb[aria-selected="true"] {
+    background: rgba(187,134,252,0.15) !important;
+    border-radius: 16px;
+}
+
+.container__37e49 {
+    box-shadow: 0 0 15px rgba(0,0,0,0.25);
+}
+
+.scrollableContainer__74017,
+.container__37e49 {
+    border-radius: 24px !important;
 }
