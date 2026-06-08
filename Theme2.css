@@ -339,28 +339,16 @@
 .childWrapper_a6ce15 path {
   fill: transparent;
 }
-/* === ОКОНЧАТЕЛЬНЫЙ УБИВАТЕЛЬ ЛОГО + НАДПИСИ (на всякий случай) === */
-.wrapper[data-list-item-id="guildsnav___home"] .childWrapper,
-.wrapper__6e9f8[data-list-item-id="guildsnav___home"] .childWrapper {
-  background: url("https://discord.com/assets/6a2c5f8e2b0c5d0f8e2b0c5d0f8e2b0c5d0f8e2b0c5d0f8e2b0c5d0f8e2b0c5d0f.svg") center/cover no-repeat !important;
-  min-width: 50px;
-  min-height: 50px;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
+/* === ОКОНЧАТЕЛЬНЫЙ УБИВАТЕЛЬ НАДПИСИ СВЕРХУ + ЛОГО === */
+.wrapper__6e9f8[data-list-item-id="guildsnav___home"] .childWrapper__6e9f8::before,
+.wrapper[data-list-item-id="guildsnav___home"] .childWrapper::before {
+  content: "" !important;
+  background-image: none !important;
 }
 
-.wrapper[data-list-item-id="guildsnav___home"] .childWrapper svg,
-.wrapper__6e9f8[data-list-item-id="guildsnav___home"] .childWrapper svg {
+.wrapper__6e9f8[data-list-item-id="guildsnav___home"] .childWrapper__6e9f8 svg,
+.wrapper[data-list-item-id="guildsnav___home"] .childWrapper svg {
   display: none !important;
-}
-
-.wrapper[data-list-item-id="guildsnav___home"] .childWrapper::before,
-.wrapper__6e9f8[data-list-item-id="guildsnav___home"] .childWrapper::before {
-  content: "🏠" !important;
-  font-size: 28px;
-  color: var(--darkplus-sec);
-  text-shadow: 0 0 10px var(--darkplus-sec);
 }
 
 .anchor-1MIwyf.anchorUnderlineOnHover-2qPutX {
