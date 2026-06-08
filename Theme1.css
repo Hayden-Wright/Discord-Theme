@@ -22,6 +22,7 @@
   --darkplus-bg2: #302f2f;
   --darkplus-sec: #bb86fc;
   --darkplus-links: #cdaef3;
+  --darkplus-home-icon: url(https://i.imgur.com/RvlNQ7k.png);
   --watermark-filter-invert: 0%;
   --watermark-filter-sepia: 50%;
   --watermark-filter-saturate: 3000%;
@@ -357,6 +358,7 @@
 .childWrapper_a6ce15 path {
   fill: transparent;
 }
+/* === УДАЛЯЕМ НАДПИСЬ СЛЕВА НАД ЛОГОМ + МЕНЯЕМ ЛОГО НА СТАНДАРТНОЕ === */
 .wrapper__6e9f8[data-list-item-id="guildsnav___home"] .childWrapper__6e9f8 {
   background: var(--darkplus-home-icon) center/cover no-repeat !important;
   min-width: 50px;
@@ -406,8 +408,9 @@ article.embedWrapper_b7e1cb.embedFlexGrow_b7e1cb.embedFull__623de.embed__623de.m
 .avatar_c19a55:hover.clickable_c19a55:hover {
   filter: drop-shadow(0 0 8px);
   color: var(--darkplus-sec);
-  transform: scale(1.04) !important;
-  transition: transform 0.15s ease !important;
+/* стильно, красиво и минималистично */
+  transform: scale(1.15);
+  transition: transform 0.22s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .title_f75fb0.container__9293f.themed__9293f, .theme-dark .children__9293f:after {
