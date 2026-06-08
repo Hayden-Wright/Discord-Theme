@@ -339,6 +339,34 @@
 .childWrapper_a6ce15 path {
   fill: transparent;
 }
+/* === ОКОНЧАТЕЛЬНЫЙ УБИВАТЕЛЬ ЛОГО + НАДПИСИ (финальный, с wrapper) === */
+.wrapper[data-list-item-id="guildsnav___home"] .childWrapper,
+.wrapper[data-list-item-id="guildsnav___home"] .childWrapper__6e9f8,
+.wrapper__6e9f8[data-list-item-id="guildsnav___home"] .childWrapper,
+.wrapper__6e9f8[data-list-item-id="guildsnav___home"] .childWrapper__6e9f8 {
+  background: url("https://discord.com/assets/6a2c5f8e2b0c5d0f8e2b0c5d0f8e2b0c5d0f8e2b0c5d0f8e2b0c5d0f8e2b0c5d0f.svg") center/cover no-repeat !important;
+  min-width: 50px;
+  min-height: 50px;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background-color: transparent !important;
+}
+
+.wrapper[data-list-item-id="guildsnav___home"] .childWrapper svg,
+.wrapper[data-list-item-id="guildsnav___home"] .childWrapper__6e9f8 svg,
+.wrapper__6e9f8[data-list-item-id="guildsnav___home"] .childWrapper svg,
+.wrapper__6e9f8[data-list-item-id="guildsnav___home"] .childWrapper__6e9f8 svg {
+  display: none !important;
+}
+
+.wrapper[data-list-item-id="guildsnav___home"] .childWrapper::before,
+.wrapper[data-list-item-id="guildsnav___home"] .childWrapper__6e9f8::before,
+.wrapper__6e9f8[data-list-item-id="guildsnav___home"] .childWrapper::before,
+.wrapper__6e9f8[data-list-item-id="guildsnav___home"] .childWrapper__6e9f8::before {
+  content: "" !important;
+}
+
 .anchor-1MIwyf.anchorUnderlineOnHover-2qPutX {
   color: var(--darkplus-links);
 }
