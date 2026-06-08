@@ -1639,3 +1639,36 @@ button.button__67645 .lottieIcon__5eb9b svg path {
   background-color: var(--darkplus-bg);
   color: var(--darkplus-links);
 }
+
+/* ===== МОИ УЛУЧШЕНИЯ ===== */
+
+/* Подсветка сообщения при наведении */
+.message_ccca67:hover {
+    background: rgba(255,255,255,0.03);
+    border-radius: 12px;
+}
+
+/* Свечение выбранного сервера */
+.wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15 {
+    box-shadow: 0 0 15px rgba(187,134,252,0.6);
+}
+
+/* Более круглые иконки серверов */
+.childWrapper_a6ce15,
+.icon__6e9f8,
+.svg_cc5dd2 {
+    border-radius: 18px !important;
+}
+
+/* Плавные анимации */
+.chatContent_f75fb0,
+.sidebarList_c48ade,
+.membersWrap_c8ffbb {
+    transition: all 0.25s ease;
+}
+
+/* Стеклянная верхняя панель */
+.title_f75fb0 {
+    backdrop-filter: blur(12px);
+    background: rgba(33,33,33,0.7) !important;
+}
