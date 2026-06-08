@@ -1735,11 +1735,6 @@ button.button__67645 .lottieIcon__5eb9b svg path {
     border-radius: 12px;
 }
 
-/* Свечение выбранного сервера */
-.wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15 {
-    box-shadow: 0 0 15px rgba(187,134,252,0.6);
-}
-
 /* Более круглые иконки серверов */
 .childWrapper_a6ce15,
 .icon__6e9f8,
