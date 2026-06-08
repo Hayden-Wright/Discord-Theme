@@ -1544,7 +1544,7 @@ button.button__67645 .lottieIcon__5eb9b svg path {
   border: none !important;
   border-radius: 16px !important;
   overflow: hidden;
-  margin: 8px;
+  margin: 16px;
 }
 
 .title_c38106 .defaultColor__4bd52 {
@@ -1728,11 +1728,3 @@ button.button__67645 .lottieIcon__5eb9b svg path {
     border-radius: 12px !important;
 }
 
-.sidebar__5e434 {
-  display: flex;
-  flex-direction: column;
-}
-
-.panels__5e434 {
-  align-self: stretch;
-}
